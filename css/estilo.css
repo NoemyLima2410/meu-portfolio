@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(233, 217, 78);
+}
+img{
+    width: 100%;
+}
+#menu{
+    background-color: rgb(226, 243, 128);
+    width: 90%;
+    height: 20%;
+}
+#menu li {
+    display: inline-block;
+    width: 200px;
+    line-height: 20px;
+    border-left: solid black 3px;
+    text-align: center;
+}
+#menu li:first-child {
+    border: none;
+}
+#caixa {
+    background-color: rgb(85, 27, 18);
+    display:flex;
+    flex-wrap: wrap;
+}
+.caixinha{
+background-color: rgb(85, 27, 18);
+flex-grow: 1;
+width: 300px;
+margin: 10px;
+}
+#rodape {
+    text-align: center;
+}
+a{
+    color: rgb(139, 27, 27);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* efeito mouse over*/
+a:hover{
+    color: rgb(85, 27, 18);
+    border-top: solid rgb(85, 27, 18) 3px;
+}
+img:hover {
+    opacity: 0.5;
+}
+p{
+    margin-top: 0;
+    font-size: 150%;
+}
+h3 {
+    margin-top: -20px;
+}
+.voltar{
+color: rgb(201, 179, 179);
+border: none;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    background:rgb(85, 27, 18);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .circle a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .circle:hover {
+    background:rgb(85, 27, 18);
+  }
